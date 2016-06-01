@@ -4,7 +4,7 @@
   "description": "Repository for storing examples used in a Introduction to Webpack tutorial",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack src/main.js dist/bundle.js",
+    "build": "webpack",
     "start": "npm run build && node dist/bundle.js"
   },
   "author": "Joseph Zimmerman <contact@joezimjs.com>",
