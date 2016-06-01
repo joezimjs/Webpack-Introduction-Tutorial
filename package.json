@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "npm run build && node dist/bundle.js"
+    "start": "npm run build && echo \"\" && node dist/bundle.js"
   },
   "author": "Joseph Zimmerman <contact@joezimjs.com>",
   "license": "MIT",
