@@ -1,0 +1,18 @@
+{
+  "name": "webpack-intro-tut",
+  "version": "1.0.0",
+  "description": "Repository for storing examples used in a Introduction to Webpack tutorial",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/main.js dist/bundle.js",
+    "start": "npm run build && node dist/bundle.js"
+  },
+  "author": "Joseph Zimmerman <contact@joezimjs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
