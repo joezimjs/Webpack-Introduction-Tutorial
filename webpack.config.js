@@ -26,6 +26,10 @@ module.exports = {
                     // tell Babel which presets to use
                     presets: ['es2015']
                 }
+            },
+            {
+                test: /\.hbs$/,
+                loader: 'handlebars'
             }
         ]
     }
