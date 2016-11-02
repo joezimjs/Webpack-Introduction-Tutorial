@@ -32,8 +32,8 @@ module.exports = {
             comments: false
         }),
         new CommonsChunkPlugin({
-            name:"vendor",
-            filename:"vendor.bundle.js"
+            name: "vendor",
+            filename: "vendor.bundle.js"
         })
     ]
 };
