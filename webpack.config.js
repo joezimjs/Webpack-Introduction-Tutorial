@@ -31,6 +31,9 @@ module.exports = {
             compress: { screw_ie8: true, warnings: false },
             comments: false
         }),
-        new CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"vendor.bundle.js")
+        new CommonsChunkPlugin({
+            name:"vendor",
+            filename:"vendor.bundle.js"
+        })
     ]
 };
