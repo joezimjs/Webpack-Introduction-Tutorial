@@ -12,12 +12,12 @@ module.exports = {
         filename: 'bundle.js'
     },
     module: {
-        loaders: [
+        rules: [
             {
-                test: /\.jsx?$/, loader: 'babel', exclude: /node_modules/,
-                query: { plugins: ['transform-runtime'], presets: ['es2015'] }
+                test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/,
+                options: { plugins: ['transform-runtime'], presets: ['es2015'] }
             },
-            { test: /\.hbs$/, loader: 'handlebars' }
+            { test: /\.hbs$/, loader: 'handlebars-loader' }
         ]
     },
     plugins: [
