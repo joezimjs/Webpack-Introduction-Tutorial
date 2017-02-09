@@ -12,10 +12,10 @@
   "author": "Joseph Zimmerman <contact@joezimjs.com>",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.13.1"
+    "lodash": "~4.17.4"
   },
   "devDependencies": {
-    "del-cli": "^0.2.0",
-    "webpack": "^1.13.1"
+    "del-cli": "~0.2.1",
+    "webpack": "~2.2.1"
   }
 }
