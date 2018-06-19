@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "del-cli dist -f",
     "build": "webpack",
-    "execute": "node dist/bundle.js",
+    "execute": "node /dist/bundle.js",
     "start": "npm run build -s && npm run execute -s"
   },
   "author": "Joseph Zimmerman <contact@joezimjs.com>",
